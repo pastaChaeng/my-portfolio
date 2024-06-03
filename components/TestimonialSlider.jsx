@@ -19,14 +19,14 @@ const testimonialData = [
     name: "Christian Santiago",
     position: "Head Documenter",
     message:
-      "Arlene is a skilled programmer and UI/UX designer whose creativity and technical prowess shine through her work. Beyond her professional talents, she is a loyal and supportive friend, always ready to lend a helping hand.",
+      "Arlene is an exceptional programmer and UI/UX designer known for her hard work and dedication. She consistently delivers high-quality results and is always ready to assist colleagues with her supportive nature. Her technical skills, work ethic, and helpfulness make her an outstanding asset to any team.",
   },
   {
     image: "/rommel.png",
     name: "Rommel Rivera",
     position: "Programmer",
     message:
-      "uwu",
+      "I've had the pleasure of knowing Arlene for several years, and she is truly an exceptional friend and programmer. Her dedication to her craft and passion for UI/UX design make her a standout professional. Beyond her technical skills, Arlene's kindness, empathy, and unwavering support make her a precious friend.",
   },
   {
     image: "/edman.jpg",
@@ -41,6 +41,13 @@ const testimonialData = [
     position: "Sr. Programmer",
     message:
       "Arlene is an exceptionally dedicated and reliable team member. Whenever challenges arise, she consistently goes above and beyond to exceed our expectations. Her skills and commitment make her one of the best software developers I have ever had the pleasure of working with.",
+  },
+  {
+    image: "/wallie.png",
+    name: "Wallie Gaynor",
+    position: "Programmer",
+    message:
+      "Working with Arlene has been great. She's an awesome programmer who's always ready to help others, even when she's facing her own issues. Arlene's skills and willingness to lend a hand make her an invaluable team member.",
   },
 ];
 
