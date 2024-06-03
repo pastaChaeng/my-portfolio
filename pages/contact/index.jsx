@@ -102,7 +102,7 @@ const Contact = () => {
               aria-disabled={isLoading}
             >
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Submit
+                Let's talk
               </span>
 
               <BsArrowRight
