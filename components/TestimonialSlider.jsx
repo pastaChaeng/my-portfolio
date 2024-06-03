@@ -12,7 +12,7 @@ const testimonialData = [
     name: "Rhea Bartolay",
     position: "System Analyst",
     message:
-      "Arlene is a versatile programmer with a knack for mastering various skills. Her ability to adapt and excel in different domains makes her an invaluable asset to any team.",
+      "For Ms. Arlene, I really can't say anything but admire her because she is good at everything, especially when it comes to programming or development. So I believe that she can help or contribute a lot in her chosen work, more projects and innovation to come in the future. Furthermore, thank you for your knowledge and teaching us when it comes to programming during a short time and advance congratulations on your success. Thank you muah.♡♥︎",
   },
   {
     image: "/bi.jpg",
@@ -34,6 +34,13 @@ const testimonialData = [
     position: "Programmer",
     message:
       "Arlene is an excellent programmer, reliable in all things, hardworking, and dedicated to life. One day, she will become a hacker.",
+  },
+  {
+    image: "/lemon.jpg",
+    name: "Angelo Gabriel Geulin",
+    position: "Sr. Programmer",
+    message:
+      "Arlene is an exceptionally dedicated and reliable team member. Whenever challenges arise, she consistently goes above and beyond to exceed our expectations. Her skills and commitment make her one of the best software developers I have ever had the pleasure of working with.",
   },
 ];
 
