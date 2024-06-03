@@ -5,6 +5,7 @@ import {
   RiFacebookLine,
   RiGithubLine,
   RiLinkedinLine,
+  RiFilePaper2Line,
 } from "react-icons/ri";
 
 export const socialData = [
@@ -22,6 +23,11 @@ export const socialData = [
     name: "Facebook",
     link: "https://www.facebook.com/rlenesEy.7/",
     Icon: RiFacebookLine,
+  },
+  {
+    name: "Resume",
+    link: "https://www.canva.com/design/DAFr5qx_1zo/T1XOSzUf2JVSsFAr2wZurQ/view",
+    Icon: RiFilePaper2Line,
   },
   {
     name: "Github",
