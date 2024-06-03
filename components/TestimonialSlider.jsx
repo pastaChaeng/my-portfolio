@@ -4,7 +4,6 @@ import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const testimonialData = [
@@ -23,11 +22,18 @@ const testimonialData = [
       "Arlene is a skilled programmer and UI/UX designer whose creativity and technical prowess shine through her work. Beyond her professional talents, she is a loyal and supportive friend, always ready to lend a helping hand.",
   },
   {
-    image: "/mel.jpg",
+    image: "/rommel.png",
     name: "Rommel Rivera",
     position: "Programmer",
     message:
-      "lenee",
+      "uwu",
+  },
+  {
+    image: "/edman.jpg",
+    name: "Edman Cabote",
+    position: "Programmer",
+    message:
+      "Arlene is a skilled programmer and UI/UX designer whose creativity and technical prowess shine through her work. Beyond her professional talents, she is a loyal and supportive friend, always ready to lend a helping hand.",
   },
 ];
 
