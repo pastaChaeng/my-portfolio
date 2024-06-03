@@ -33,7 +33,7 @@ const testimonialData = [
     name: "Edman Cabote",
     position: "Programmer",
     message:
-      "Arlene is a skilled programmer and UI/UX designer whose creativity and technical prowess shine through her work. Beyond her professional talents, she is a loyal and supportive friend, always ready to lend a helping hand.",
+      "Arlene is an excellent programmer, reliable in all things, hardworking, and dedicated to life. One day, she will become a hacker.",
   },
 ];
 
