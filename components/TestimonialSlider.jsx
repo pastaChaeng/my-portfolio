@@ -13,14 +13,14 @@ const testimonialData = [
     name: "Rhea Bartolay",
     position: "System Analyst",
     message:
-      "owo",
+      "Arlene is a versatile programmer with a knack for mastering various skills. Her ability to adapt and excel in different domains makes her an invaluable asset to any team.",
   },
   {
     image: "/bi.jpg",
     name: "Christian Santiago",
     position: "Head Documenter",
     message:
-      "uwu",
+      "Arlene is a skilled programmer and UI/UX designer whose creativity and technical prowess shine through her work. Beyond her professional talents, she is a loyal and supportive friend, always ready to lend a helping hand.",
   },
   {
     image: "/mel.jpg",
