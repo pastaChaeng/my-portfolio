@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { BsArrowRight } from "react-icons/bs";
-
+import { BsArrowRight, BsCaretLeft } from "react-icons/bs";
+import Link from "next/link";
 import { fadeIn } from "../../variants";
 import { useState } from "react";
 
-const Contact = () => {
+const Login = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (event) => {
@@ -37,7 +37,7 @@ const Contact = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Let's <span className="text-[#d580ff]">connect.</span>
+            <span className="text-[#d580ff]">Login .</span>
           </motion.h2>
 
           {/* form */}
@@ -54,55 +54,44 @@ const Contact = () => {
             data-netlify="true"
           >
             {/* input group */}
-            <div className="flex gap-x-6 w-full">
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                className="input"
-                disabled={isLoading}
-                aria-disabled={isLoading}
-                required
-                aria-required
-              />
-              <input
+            <div className="gap-6 grid grid-cols-1 grid-rows-2 bg-[#d580ff0e] p-10 rounded-lg">
+            <div>
+              Email :
+             <input
                 type="email"
                 name="email"
-                placeholder="E-mail"
                 className="input"
                 disabled={isLoading}
                 aria-disabled={isLoading}
                 required
                 aria-required
               />
-            </div>
-            <input
-              type="text"
-              name="subject"
-              placeholder="Subject"
-              className="input"
-              disabled={isLoading}
-              aria-disabled={isLoading}
-              required
-              aria-required
-            />
-            <textarea
-              name="message"
-              placeholder="Message..."
-              className="textarea"
-              disabled={isLoading}
-              aria-disabled={isLoading}
-              required
-              aria-required
-            />
-            <button
+             </div>
+              <div>
+                  Password :
+                  <input
+                type="password"
+                name="password"
+                className="input"
+                disabled={isLoading}
+                aria-disabled={isLoading}
+                required
+                aria-required
+
+              />
+              </div>
+              <div className="text-[#d580ff]">
+             Forgot your password?
+            </div>    
+
+          <button
               type="submit"
-              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-[#d580ff] group"
+              className="btn rounded-xl border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-[#d580ff] group"
               disabled={isLoading}
               aria-disabled={isLoading}
             >
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Submit
+                Login
               </span>
 
               <BsArrowRight
@@ -110,6 +99,10 @@ const Contact = () => {
                 aria-hidden
               />
             </button>
+            <div className="text-[#d580ff] underline">
+             Back to Homepage 
+            </div>
+            </div>
           </motion.form>
         </div>
       </div>
@@ -117,4 +110,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Login;

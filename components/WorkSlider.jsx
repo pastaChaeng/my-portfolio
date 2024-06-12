@@ -48,7 +48,7 @@ const workSlides = {
         },
         {
           title: "Her Art Gallery",
-          path: "/herArt.png",
+          path: "/her-art.png",
           link: "https://pastachaeng.github.io/Her_Art_Gallery_/",
         },
         {
