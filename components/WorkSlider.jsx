@@ -49,7 +49,7 @@ const workSlides = {
         {
           title: "Her Art Gallery",
           path: "/her-art.png",
-          link: "https://pastachaeng.github.io/Her_Art_Gallery_/",
+          link: "https://her-art.vercel.app/",
         },
         {
           title: "Quote Generator",
