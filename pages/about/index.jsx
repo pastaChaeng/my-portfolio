@@ -75,6 +75,10 @@ export const aboutData = [
     title: "experience",
     info: [
       {
+        title: "Data Analyst - Accenture",
+        stage: "2024 - PRESENT",
+      },
+      {
         title: "Technical Support Specialist - Concentrix",
         stage: "2024",
       },
@@ -111,7 +115,6 @@ const About = () => {
       <Circles />
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
-        {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
@@ -129,11 +132,10 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-           I am currently pursuing a degree in Information Technology at QCU,
-          where I learn new skills and technologies to enhance my web development career.
+           A Software Developer with a degree in Information Technology. With a solid foundation in coding, 
+           problem&ndash;solving, and modern tech stacks, committed to developing applications and contributing to the success of tech&ndash;driven projects.
           </motion.p>
 
-          {/* counters */}
           <motion.div
             variants={fadeIn("right", 0.6)}
             initial="hidden"
@@ -150,7 +152,6 @@ const About = () => {
                   Years of experience.
                 </div>
               </div>
-
 
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
