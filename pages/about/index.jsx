@@ -58,6 +58,10 @@ export const aboutData = [
     title: "awards",
     info: [
       {
+        title: "Cum Laude- Quezon City University",
+        stage: "2020 - 2024",
+      },
+      {
         title: "Leadership Award NSTP- Quezon City University",
         stage: "2020 - 2021",
       },
@@ -85,23 +89,6 @@ export const aboutData = [
       {
         title: "Web Developer - NegosyoLabPH",
         stage: "2023",
-      },
-      {
-        title: "Learning Facilitator - DSWD",
-        stage: "2023",
-      },
-      {
-        title: "Data Encoder - AMA University",
-        stage: "2018",
-      },
-    ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "to be followed",
-        stage: "??",
       },
     ],
   },
